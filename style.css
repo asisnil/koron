@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(202,165,241);
+    background: linear-gradient(286deg, rgba(202,165,241,1) 0%, rgb(172, 172, 172) 50%, rgba(0,212,255,1) 100%); 
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 16px;
+}
+.form{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form button{
+    margin: 8px;
+    border: 1px solid tomato ;
+    border-radius: 10%;
+}
+.fa-plus-circle{
+    padding: 5px;
+    font-size: 24px;
+}
+.form input{
+    height: 50px;
+    width: 500px;
+    border: 1px solid tomato ;
+    border-radius: 4px;
+}
+.fa-check-circle, .fa-minus-circle{
+    pointer-events: none;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.todo li{
+    flex: 1;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.todo-item{
+    border: 1px solid tomato;
+    padding: 14px;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+ }
+ .todo button{
+    margin: 8px;
+    border: 1px solid tomato ;
+    border-radius: 10%;
+}
+.trs-btn, .cmpl-btn{
+    margin: 8px;
+    border: 1px solid tomato ;
+    border-radius: 10%;
+}
+
+.fa-check-circle, .fa-minus-circle{
+    margin: 8px;
+}

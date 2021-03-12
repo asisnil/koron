@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koron</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h1>ToDo List</h1>
+    </header>
+<!--Todo input and submit-->
+    <form class="form">
+        <input type="text" maxlength="70" class="todo-input">
+        <button class="todo-btn" type="submit">
+            <i class="fas fa-plus-circle"></i>
+        </button>
+    </form>
+<!--Todo list-->
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+<script src="js.js"></script>
+</body>
+</html>
